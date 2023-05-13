@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Buddy</title>
+        <link rel="stylesheet" href="ddd.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <p class="topnav"></p>
+        <a class="profile" href="프로필"></a>
+        <p class="name" >name</p>
+        <p style="position: absolute;
+        width: 164px;
+        height: 54px;
+        left: 12px;
+        top: 101px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        text-align: center;"
+        >프로필 만들기</p>
+
+        <p style="box-sizing: border-box;
+        position: absolute;
+        width: 280px;
+        height: 180px;
+        left: 38px;
+        top: 197px;
+        border: 1px solid #000000;" id="profile_box"></p>
+        
+        <input id="profile_img" class="profile_img" type="file" style="box-sizing: border-box;
+        position: absolute;
+        width: 129px;
+        height: 34px;
+        left: 104px;
+        top: 383px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #847070;"/>
+
+        <input id="profile_dis" class="profile_dis" style="box-sizing: border-box;
+        position: absolute;
+        width: 258px;
+        height: 37px;
+        left: 40px;
+        top: 423px;
+        border: 1px solid rgba(0, 0, 0, 0.85);
+        border-radius: 30px;position: absolute;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #9F9393;" placeholder="텍스트 입력"/>
+
+        <p style="position: absolute;
+        width: 109px;
+        height: 32px;
+        left: 11px;
+        top: 506px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;">대상과의 관계:</p>
+        <div>
+            <input type="radio" id="friend" class="nearest" name="rela" vlaue="friend" checked style="left: 129px;
+            top: 516px; position: absolute;">
+            <label for="friend" style="left: 150px;
+            top: 513px; position: absolute;">친구</label>
+        </div>
+        <div>
+            <input type="radio" id="family" class="nearest" name="rela" value="family" style="left: 129px;
+            top: 546px; position: absolute;">
+            <label for="family" style="left: 150px;
+            top: 543px; position: absolute;">가족</label>
+        </div>
+        <div>
+            <input type="radio" id="gf" class="nearest" name="rela" vlaue="gf" style="left: 129px;
+            top: 576px; position: absolute;">
+            <label for="gf" style="left: 150px;
+            top: 573px; position: absolute;">연인</label>
+        </div>
+    </body>
