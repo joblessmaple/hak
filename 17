@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Buddy</title>
+        <link rel="stylesheet" href="ddd.css">
+        <script src="qw.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <p class="topnav"></p>
+        <a class="profile" href="프로필"></a>
+        <p class="name" id="myname"></p>
+        <a href="" style="margin-left: 8px; 
+        margin-top: 95px;"> Back </a>
+        <p style="position: absolute;
+        width: 162px;
+        height: 162px;
+        left: 97px;
+        top: 111px;
+        background: #D9D9D9;
+        border-radius: 81px;"> </p>
+        <p id="other_name" style="position: absolute;
+        width: 176px;
+        height: 54px;
+        left: 92px;
+        top: 287px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #000000;
+        "> noname </p>
+        <a style="display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 16px 0px;
+        gap: 50px;
+        position: absolute;
+        width: 280px;
+        height: 377px;
+        left: 40px;
+        top: 341px;
+        ">
+        <p class="nametag"></p>
+    
+        </a>
+    </body>
+
+</html>
