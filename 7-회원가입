@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>buddy</title>
+        <link href="ddd.css" rel="stylesheet">
+    </head>
+    <body>
+        <p class="topnav"></p>
+        <p class="welcome">welcome to buddy!</p>
+        <a class="back" href=""><b>back</b></a>
+        <p class="id">ID</p>
+        <input type="text" id="id_input" class="ID" required>
+        <p id="available_id" class="available_id"></p>
+        <p id="password" class="password">PASSWORD</p>
+        <input type="password" id="pw_input" class="pw_input" required>
+        <p id="available_pw" class="available_pw"></p>
+        <p id="my_name" class="my_name">이름</p>
+        <input type="text" id="input_name" class="input_name" required>
+        <p id="em" class="em">E-mail</p>
+        <input type="text" class="email" id="email" >
+        <p id="privacy" class="privacy">개인정보약관동의</p>
+        <p id="pr" class="pr">개인정보를 넘기는 것에 동의한다. </p>
+        <label for="agree" class="agree">동의함</label>
+        <input type="radio" id="agree" class="agree" name="agree">
+        <label for="disagree" class="disagree">동의하지 않음</label>
+        <input type="radio" id="disagree" class="disagree" name="agree">
+        <p id="signup" class="signup">회원가입</p>
+    </body>
+</html>
